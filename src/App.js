@@ -8,6 +8,12 @@ class App extends Component {
   state = {
     timerIDs: []
   }
+  //cosntructor(props) {
+//super();
+  //}
+  componentDidMount() {
+this.handleAddTimer();
+  }
 
 
   //Your code here:
